@@ -37,7 +37,7 @@
 <body class="font-lato">
   <header>
         <!-- navbar section -->
-        <div class="navbar bg-red-600 rounded-full my-12 mx-auto max-w-7xl w-full relative">
+        <div class="navbar bg-red-600 rounded-full my-12 mx-auto max-w-7xl w-full relative flex-col lg:flex-row invisible sm:visible">
           <div class="flex-1">
             <ul class="flex gap-11 text-slate-300">
               <li>Home</li>
@@ -61,6 +61,18 @@
                 </div>
               </label>
             </div>
+          </div>
+        </div>
+        <!-- navbar 2 -->
+        <div class="navbar bg-base-100 md:hidden lg:hidden">
+          <div class="text-slate-300 font-extrabold text-xl mx-64">
+            <img src="./images/logo.png" alt="">
+            <p class="justify-center items-center text-center">Fruit Burst</p>
+          </div>
+          <div class="flex-none">
+            <button class="btn btn-square btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
           </div>
         </div>
   </header>
@@ -140,7 +152,7 @@
             </div>
           </div>
         </div>
-        <div class="absolute bg-white flex bottom-0 -my-64 mx-80 rounded-xl justify-evenly gap-2">
+        <div class="absolute bg-white flex bottom-0 -my-64 mx-80 rounded-xl justify-evenly gap-2 text-black">
           <div>
             <img src="images/fruit1.png" alt="">
             <p>Grape</p>
@@ -195,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-5 ml-12">
+        <div class="flex gap-5 ml-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                   <!-- card 1 -->
         <div class="relative">
           <div class="card w-80 py-16 bg-base-100 shadow-xl">
@@ -375,7 +387,7 @@
             <div class="max-w-md">
               <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
               <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-              <div class="flex -mx-16 gap-24">
+              <div class="flex -mx-16 gap-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <div class="">
                   <img src="images/member1.png" alt="">
                   <h3 class="text-xl">Awlad Hossain</h3>
